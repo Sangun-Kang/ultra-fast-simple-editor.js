@@ -1,0 +1,33 @@
+{
+  "name": "ultra-fast-simple-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --config vite.config.mts",
+    "build": "vite build"
+  },
+  "repository": "git+ssh://git@github.com/Sangun-Kang/ultra-fast-simple-editor.js.git",
+  "keywords": [],
+  "author": "Sangun-Kang <sangun950@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sangun-Kang/ultra-fast-simple-editor.js/issues"
+  },
+  "homepage": "https://github.com/Sangun-Kang/ultra-fast-simple-editor.js#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.3.2",
+    "vite-plugin-dts": "^3.9.1",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.2"
+  }
+}
