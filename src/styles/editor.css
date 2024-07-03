@@ -20,3 +20,34 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
+
+.editor-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.editor-content {
+  min-height: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+.highlight-box {
+  position: absolute;
+  background: rgba(173, 216, 230, 0.3); /* 연한 파란색 */
+  border: 1px solid #add8e6;
+  pointer-events: none; /* 박스 클릭 불가 */
+}
